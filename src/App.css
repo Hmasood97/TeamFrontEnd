@@ -1,0 +1,49 @@
+
+
+
+.App {
+  text-align: center;
+  background: whitesmoke;
+  background-repeat: repeat;
+  opacity: 5
+}
+
+.App-logo {
+  height: 39vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: Red
+
+}
+
+h3 {
+ color: brown;
+ font-size: 30px;
+}
+.logo {
+  height: 300px;
+  border-radius: 100%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
